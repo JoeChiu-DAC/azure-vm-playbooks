@@ -60,7 +60,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/azureuser/.ssh/authorized_keys
-          key_data: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDM8gWyHqKGKYeyYzX5xDFAtdF+MWpZ1l8KX5XVduzrAP+v+kLDqfdQDDNBXW0XfwUPd0Ky4XeFRI5PbffdSdkUiYJI4YRU7LViJ31aqywWfJ046XfQFOj4rWL8JyNF1bQ8c+GEHTQ28mL/aYhf0AqhmBYi6BNjzFyuE9MQyiGzUxDXfpyKyCFjC7z4ALcOjR2oDZjjYgEnHaQxf958YgR9EDHbFkdvDAq/FQPtnt3zupy7HzKESQHUadm/j11qMY9SzQAQj6sosavAbYDLBgCKDgMsbFlsX/FgbHGbZdPEWWhc5TGYJPmzxFz/sz0zq2kmyps6xtgWEK7u72A7TB6n joechiu@ubuntu12'
+          key_data: '<<ssh public key codes here>>'
       network_interfaces: myNIC
       image:
         offer: CentOS
