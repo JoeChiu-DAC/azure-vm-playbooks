@@ -1,0 +1,20 @@
+- name: Create Foo bar Azure VM
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: Remove VM
+    azure_rm_virtualmachine:
+      resource_group: Infra-as-code-group
+      name: myVM
+      state: absent
+      remove_on_absent:
+        - network_interfaces
+        - virtual_storage
+        - public_ips
+
+  - name: Remove Storage
+    azure_rm_storageaccount:
+      resource_group: Infra-as-code-group
+      name: myVM
+      state: absent
+

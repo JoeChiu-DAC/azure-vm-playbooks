@@ -1,0 +1,9 @@
+- name: Spins for Azure VM
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Power on 
+      azure_rm_virtualmachine:
+        resource_group: Infra-as-code-group
+        name: myVM
+
